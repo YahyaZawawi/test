@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Titillium Web, cursive);
+@font-face { font-family: 'DIN Next LT Arabic'; src: url("../fonts/DINNextLTArabic-Regular.woff2") format("woff2"), url(" fonts/DINNextLTArabic-Regular.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'DIN Next LT Arabic'; src: url("../fonts/DINNextLTArabic-Bold.woff2") format("woff2"), url(" fonts/DINNextLTArabic-Bold.woff") format("woff"); font-weight: bold; font-style: normal; }
+
+@font-face { font-family: 'DIN NEXTTM ARABIC'; src: url("../fonts/DINNextLTW23-Medium.woff2") format("woff2"), url(" fonts/DINNextLTW23-Medium.woff") format("woff"); font-weight: 500; font-style: normal; }
+
+body { background-color: #f8f8f8; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p { font-family: DIN Next LT Arabic; }
+
+#logo__id { background-color: #ffffff; text-align: center; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #logo__id img { margin-top: 40px; width: 55px; }
+  #logo__id h1 { margin-top: 40px; font-size: 18px; }
+  #logo__id p { margin-top: 40px; font-size: 17px; }
+  #logo__id .slide__image { height: 23vh; width: 100%; }
+  #logo__id .carousel-inner { height: 200px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #logo__id img { margin-top: 40px; width: 55px; }
+  #logo__id h1 { margin-top: 40px; font-size: 18px; }
+  #logo__id p { margin-top: 40px; font-size: 17px; }
+  #logo__id .slide__image { height: 23vh; width: 100%; }
+  #logo__id .carousel-inner { height: 200px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #logo__id img { margin-top: 40px; width: 55px; }
+  #logo__id h1 { margin-top: 40px; }
+  #logo__id p { margin-top: 40px; font-size: 17px; }
+  #logo__id .slide__image { height: 23vh; width: 100%; }
+  #logo__id .carousel-inner { height: 200px; } }
+
+@media only screen and (min-width: 961px) { #logo__id img { margin-top: 40px; width: 75px; }
+  #logo__id h1 { margin-top: 40px; font-size: 25px; }
+  #logo__id p { margin-top: 40px; font-size: 17px; }
+  #logo__id .slide__image { height: 400px; width: 100%; }
+  #logo__id .carousel-inner { height: 400px; } }
+
+#payment__section { text-align: center; background-color: #ffffff; padding-bottom: 140px; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #payment__section img { width: 55px; margin-top: 40px; }
+  #payment__section h5 { font-size: 17px; color: #45b44e; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #payment__section img { width: 65px; margin-top: 40px; }
+  #payment__section h5 { font-size: 17px; color: #45b44e; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #payment__section img { width: 65px; margin-top: 40px; }
+  #payment__section h5 { font-size: 17px; color: #45b44e; } }
+
+@media only screen and (min-width: 961px) { #payment__section img { width: 65px; margin-top: 40px; }
+  #payment__section h5 { margin-top: 10px; color: #45b44e; } }
+
+#price__section { text-align: center; background-color: #f8f8f8; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #price__section img { width: 45px; }
+  #price__section .price__div { margin-top: 120px; padding-bottom: 25px; }
+  #price__section span { font-weight: bold; }
+  #price__section mark { color: #da4356; }
+  #price__section .span__150 { color: #45b44e; }
+  #price__section p { text-decoration: line-through; width: 50px; position: absolute; left: 117px; top: -3px; color: #e7e7e7; }
+  #price__section .card { position: relative; display: inline-block; bottom: 148px; padding: 5px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #price__section img { width: 45px; }
+  #price__section .price__div { margin-top: 120px; padding-bottom: 25px; }
+  #price__section span { font-weight: bold; }
+  #price__section mark { color: #da4356; }
+  #price__section .span__150 { color: #45b44e; }
+  #price__section p { text-decoration: line-through; width: 50px; position: absolute; left: 117px; top: -3px; color: #e7e7e7; }
+  #price__section .card { position: relative; display: inline-block; bottom: 148px; padding: 5px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #price__section img { width: 45px; }
+  #price__section .price__div { margin-top: 120px; padding-bottom: 25px; }
+  #price__section span { font-weight: bold; }
+  #price__section mark { color: #da4356; }
+  #price__section .span__150 { color: #45b44e; }
+  #price__section p { text-decoration: line-through; width: 50px; position: absolute; left: 117px; top: -3px; color: #e7e7e7; }
+  #price__section .card { position: relative; display: inline-block; bottom: 148px; padding: 5px; } }
+
+@media only screen and (min-width: 961px) { #price__section img { width: 40px; padding-bottom: 10px; }
+  #price__section .card { position: relative; display: inline-block; z-index: 1; bottom: 27px; padding: 10px; }
+  #price__section span { font-weight: bold; }
+  #price__section p { text-decoration: line-through; width: 75px; position: absolute; left: 108px; top: 2px; color: #e7e7e7; }
+  #price__section mark { color: #da4356; }
+  #price__section .span__150 { color: #45b44e; } }
+
+#review__section { background-color: #f8f8f8; width: 100%; text-align: center; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #review__section { padding: 0px 20px; margin-top: 40px; }
+  #review__section h1 { font-size: 25px; }
+  #review__section p { color: grey; text-align: center; }
+  #review__section h5 { font-size: 20px; margin-top: 40px; margin-bottom: 20px; }
+  #review__section .yellow__star { color: #f2bd0b; }
+  #review__section img { width: 45px; }
+  #review__section ol { bottom: -86px; }
+  #review__section li { border-radius: 100%; height: 15px; width: 15px; background-color: #d8d8d8; }
+  #review__section .border__holder { margin: 30px 0; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #review__section { padding: 0px 10px; margin-top: 40px; }
+  #review__section h1 { font-size: 25px; }
+  #review__section p { color: grey; text-align: center; }
+  #review__section h5 { font-size: 20px; margin-top: 40px; margin-bottom: 20px; }
+  #review__section .yellow__star { color: #f2bd0b; }
+  #review__section img { width: 45px; }
+  #review__section ol { bottom: -86px; }
+  #review__section li { border-radius: 100%; height: 15px; width: 15px; background-color: #d8d8d8; }
+  #review__section .border__holder { margin: 30px 0; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #review__section { padding: 0px 20px; margin-top: 40px; }
+  #review__section h1 { font-size: 25px; }
+  #review__section p { color: grey; text-align: center; }
+  #review__section h5 { margin-top: 40px; margin-bottom: 20px; }
+  #review__section .yellow__star { color: #f2bd0b; }
+  #review__section img { width: 45px; }
+  #review__section ol { bottom: -86px; }
+  #review__section li { border-radius: 100%; height: 15px; width: 15px; background-color: #d8d8d8; }
+  #review__section .border__holder { margin: 30px 0; } }
+
+@media only screen and (min-width: 961px) { #review__section { margin-top: 40px; }
+  #review__section .carousel-inner { display: inline-block; }
+  #review__section .border__holder { display: inline-block; text-align: right; margin: 0 72px; width: 40%; }
+  #review__section .span__holder { border-top: 1px solid; padding-top: 10px; border-color: grey; }
+  #review__section p { color: grey; width: 100%; }
+  #review__section h1 { margin-bottom: 50px; margin-top: 10px; text-align: center; }
+  #review__section .stars__holder { text-align: left; position: absolute; top: 90px; }
+  #review__section .yellow__star { color: #f2bd0b; }
+  #review__section img { width: 45px; }
+  #review__section ol { bottom: -86px; }
+  #review__section li { border-radius: 100%; height: 20px; width: 20px; background-color: #d8d8d8; }
+  #review__section .simple__line { font-family: DIN Next LT Arabic; color: #767070; } }
+
+#timer__section { text-align: center; margin-top: 130px; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #timer__section mark { color: #da4356; font-weight: bold; }
+  #timer__section h3 { font-size: 25px; margin-bottom: 25px; }
+  #timer__section .card { display: inline-block; padding: 13px; }
+  #timer__section .days { font-size: 20px; color: #db4844; }
+  #timer__section .hours { font-size: 20px; color: #f07c22; }
+  #timer__section .minutes { font-size: 20px; color: #f6da74; }
+  #timer__section .seconds { font-size: 20px; color: #abcd58; }
+  #timer__section .display__inline__block { display: inline-block; line-height: 1; padding: 20px; font-size: 40px; }
+  #timer__section .day { display: block; font-size: 20px; color: grey; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #timer__section mark { color: #da4356; font-weight: bold; }
+  #timer__section h3 { font-size: 25px; margin-bottom: 25px; }
+  #timer__section .card { display: inline-block; padding: 13px; }
+  #timer__section .days { font-size: 20px; color: #db4844; }
+  #timer__section .hours { font-size: 20px; color: #f07c22; }
+  #timer__section .minutes { font-size: 20px; color: #f6da74; }
+  #timer__section .seconds { font-size: 20px; color: #abcd58; }
+  #timer__section .display__inline__block { display: inline-block; line-height: 1; padding: 20px; font-size: 40px; }
+  #timer__section .day { display: block; font-size: 20px; color: grey; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #timer__section mark { color: #da4356; font-weight: bold; }
+  #timer__section h3 { font-size: 25px; margin-bottom: 25px; }
+  #timer__section .card { display: inline-block; padding: 13px; }
+  #timer__section .days { font-size: 20px; color: #db4844; }
+  #timer__section .hours { font-size: 20px; color: #f07c22; }
+  #timer__section .minutes { font-size: 20px; color: #f6da74; }
+  #timer__section .seconds { font-size: 20px; color: #abcd58; }
+  #timer__section .display__inline__block { display: inline-block; line-height: 1; padding: 20px; font-size: 40px; }
+  #timer__section .day { display: block; font-size: 20px; color: grey; } }
+
+@media only screen and (min-width: 961px) { #timer__section { text-align: center; }
+  #timer__section mark { color: #da4356; font-weight: bold; }
+  #timer__section h3 { font-size: 25px; margin-bottom: 25px; margin-top: 10px; }
+  #timer__section .card { display: inline-block; padding: 13px; }
+  #timer__section .days { font-size: 20px; color: #db4844; }
+  #timer__section .hours { font-size: 20px; color: #f07c22; }
+  #timer__section .minutes { font-size: 20px; color: #f6da74; }
+  #timer__section .seconds { font-size: 20px; color: #abcd58; }
+  #timer__section .display__inline__block { display: inline-block; line-height: 1; padding: 20px; font-size: 40px; }
+  #timer__section .day { display: block; font-size: 20px; color: grey; } }
+
+#form__section { text-align: center; margin-top: 40px; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #form__section input { text-align: right; padding-right: 10px; margin-bottom: 20px; width: 85%; }
+  #form__section button { width: 85%; background-color: #41a04a; padding: 5px; color: white; }
+  #form__section h6 { text-align: right; margin-right: 24px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #form__section input { text-align: right; padding-right: 10px; margin-bottom: 20px; width: 85%; }
+  #form__section button { width: 85%; background-color: #41a04a; padding: 5px; color: white; }
+  #form__section h6 { text-align: right; margin-right: 26px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #form__section input { width: 85%; text-align: right; padding-right: 10px; margin-bottom: 20px; }
+  #form__section button { width: 85%; background-color: #41a04a; padding: 5px; color: white; }
+  #form__section h6 { text-align: right; margin-right: 31px; } }
+
+@media only screen and (min-width: 961px) { #form__section { text-align: right; }
+  #form__section input { width: 100%; text-align: right; margin-bottom: 20px; padding: 5px; }
+  #form__section button { width: 100%; background-color: #41a04a; padding: 5px; color: white; } }
+
+#footer { text-align: center; margin-top: 80px; padding-bottom: 40px; }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #footer h4 { font-size: 20px; color: grey; margin-bottom: 10px; }
+  #footer img { width: 55px; }
+  #footer i { margin: 0px 10px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #footer h4 { font-size: 20px; color: grey; margin-bottom: 10px; }
+  #footer img { width: 55px; }
+  #footer i { margin: 0px 10px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #footer h4 { font-size: 20px; color: grey; margin-bottom: 10px; }
+  #footer img { width: 55px; }
+  #footer i { margin: 0px 10px; } }
+
+@media only screen and (min-width: 961px) { #footer h4 { font-size: 20px; color: grey; }
+  #footer img { width: 55px; padding-bottom: 20px; }
+  #footer i { margin: 0px 10px; } }

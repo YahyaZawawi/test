@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>landing page with sass</title>
+  <!-- BootStrap  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesom -->
+  <script src="https://kit.fontawesome.com/36dee99fec.js"></script>
+  <link rel="stylesheet" href="css-scss/style.compact.css">
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!-- IMAGE SLIDER TOP SECTION -->
+  <section id="logo__id">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <div class="logo__and__images">
+            <img class="logo__img" src="images/logo-for-landing-page.png" alt="">
+            <h1 class="title__h1">بمناسبة احتفالات اليوم الوطني</h1>
+          </div>
+
+          <!-- images slider here -->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="slide__image" src="images/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="slide__image" src="images/2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- slider end here -->
+
+          <p class="about__p">اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل
+            اليوم الوطني يوم جميل
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FETURS SECTION -->
+
+  <section id="payment__section">
+    <div class="container">
+      <div class="row">
+
+        <div class="features-box col-md-12 col-lg-4">
+          <!-- here we change the size of the icon by using fa-3x you can check the tools on the we faiveryt -->
+          <img src="images/refound.png" alt="">
+          <h5 class="Features-Text">سياسة الاسترجاع و الاستبدال</h5>
+        </div>
+
+        <div class="features-box col-md-12 col-lg-4">
+          <!-- here we change the size of the icon by using fa-3x you can check the tools on the we faiveryt -->
+          <img src="images/payment.png" alt="">
+          <h5 class="Features-Text">طريقة الدفع مريحة وامنة</h5>
+        </div>
+
+        <div class="features-box col-md-12 col-lg-4">
+          <!-- here we change the size of the icon by using fa-3x you can check the tools on the we faiveryt -->
+          <img src="images/delv.png" alt="">
+          <h5 class="Features-Text">توصيل سريع وامن</h5>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- price section -->
+
+  <section id="price__section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+          <div class="price__div card">
+            <p class="price-950">950.00</p>
+            <span class="span__150">ر.س 150.500</span>
+            <span class="price__850"><mark>وفر 850</mark></span>
+            <i><img src="images/price-tag.png" alt=""></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- review SECTION -->
+
+  <section>
+
+  </section>
+
+
+  <section id="review__section">
+
+
+    <span class="simple__line">______</span>
+
+    <h1>من آراء العملاء</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000" data-touch="">
+
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="carousel-item" data-interval="2000" data-touch="">
+          <!-- second slide content inside this div and so on -->
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدةالخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدةالخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item" data-interval="3000" data-touch="">
+          <!-- second slide content inside this div and so on -->
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدةالخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+
+          <div class="border__holder">
+            <p>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة>الخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدةالخدمة جميلة وسريعة انصح بها الحدمة جميلة وانصح بها وبشدة</p>
+            <div class="span__holder">
+              <span>عبدالله محمد</span>
+
+              <img class="testimonial-image" src="images/user.png" alt="dog-profile">
+              <p>المملكة العربية السعودية</p>
+
+            </div>
+
+            <div class="stars__holder">
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+              <i class="fas fa-star yellow__star"></i>
+            </div>
+          </div>
+
+
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- TIMER SECTION -->
+
+  <section id="timer__section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-8">
+
+          <div class="timer__div">
+            <span class="simple__line">______</span>
+
+            <h3 class="timer__h3">اطلب الان قبل نفاذ الكمية</h3>
+
+            <span class="card">
+
+
+              <span class="span__how__many">الكمية المتوفرة </span>
+              <span class="span__500"> <mark>500</mark></span>
+              <i class="fas fa-store"></i>
+          </div>
+          </span>
+
+          <!-- timer here starts............. -->
+          <div class="container">
+
+            <div class="timer__holder">
+              <div class="timer display__inline__block">
+
+                <div class="days display__inline__block">
+
+                </div>
+                <div class="hours display__inline__block"></div>
+                <div class="minutes display__inline__block"></div>
+                <div class="seconds display__inline__block"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- timer here ends .... -->
+
+  <!-- FORM SECTION STARTS HERE -->
+  <section id="form__section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <h6>الاسم الكريم</h6>
+          <input class="form__input" type="text" name="" value="" placeholder="الاسم كامل">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h6>رقم الجوال</h6>
+          <input class="form__input input--50width" type="text" name="" value="" placeholder="رقم الجوال">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h6>البريد الالكتروني</h6>
+          <input class="form__input input--50width" type="text" name="" value="" placeholder="البريد الالكتروني">
+
+        </div>
+        <div class="col-lg-12 col-sm-12">
+          <button type="button" name="button">ارسل الطلب</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FORM SECTION ENDS HERE -->
+  <!-- FOOTER -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="footer__div">
+            <h4>100% تسوق الكتروني آمن</h4>
+
+            <span>
+              <i><img class="footer__imgs" src="images/visa.png" alt=""></i>
+              <i><img class="footer__imgs" src="images/mada-logo.png" alt=""></i>
+              <i><img class="footer__imgs" src="images/master.png" alt=""></i>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bootstarp links -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

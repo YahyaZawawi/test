@@ -1,0 +1,83 @@
+// COLORS
+$color-primary: #41a04a;
+$color-primary-l: #45b44e;
+$color-primary-t: rgba(65, 160, 74, 0.5);
+$color-primary-tt: rgba(93, 213, 196, 0.08);
+$color-primary-d: #37753a;
+$color-secondary: #da4356;
+$color-title: #4b4646;
+$color-text: #767070;
+$color-back-ground-white-not100: #f8f8f8;
+$color-border: #d8d8d8;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #e7e7e7;
+$color-success: #00af6c;
+$color-alert: #f2bd0b;
+$color-danger: #e2384d;
+$color-social-facebook: #3b5998;
+$color-social-twitter: #00b6f1;
+$color-social-gram: #c32aa3;
+$color-social-youtube: #ff0000;
+$color-social-in: #007bb6;
+$color-social-g-plus: #df4a32;
+$color-social-snap: #fffc00; // varibls
+$color-red: red;
+$color-primary-l: #45b44e;
+$margin-top-40: 40px;
+$margin-top-80: 80px;
+$margin-top-130: 130px;
+$margin-top-250: 250px;
+$padding-top-40: 40px;
+$padding-top-80: 80px;
+$padding-top-130: 130px;
+$padding-top-250: 250px;
+$text-x-medium: 21px;
+$padding-all-20: 20px; // fonts
+$title-font: "Bangers"; // breakpoints ---
+$max-breakpoint: 2000px;
+$screen-desktop: 1600px;
+$screen-desktop-large: 1920px;
+$screen-desktop-small: 1439px;
+$screen-laptop: 1199px;
+$screen-laptop-small: 1023px;
+$screen-tablet-l: 991px;
+$screen-tablet-p: 768px;
+$screen-phones: 767px;
+$screen-phablet: 480px;
+$screen-mobile: 320px;
+$container-width: 1440px;
+$input-max-height: 60px;
+$input-min-height: 50px; // --- text
+$base-size: 16px;
+$text-large: 18px;
+$text-x-medium: 17px;
+$text-medium: 16px;
+$text-small: 15px;
+$text-smaller: 14px;
+$line-height: 1.5;
+$b-radius: 5px;
+$nav-item-height: 50px; // ----- title
+$title-small: 20px;
+$title-medium: 25px;
+$title-large: 40px;
+$title-huge: 50px;
+$title-giant: 60px; // FONTS
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url("../fonts/DINNextLTArabic-Regular.woff2") format('woff2'), url(" fonts/DINNextLTArabic-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url("../fonts/DINNextLTArabic-Bold.woff2") format('woff2'), url(" fonts/DINNextLTArabic-Bold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN NEXTTM ARABIC';
+  src: url("../fonts/DINNextLTW23-Medium.woff2") format('woff2'), url(" fonts/DINNextLTW23-Medium.woff") format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
