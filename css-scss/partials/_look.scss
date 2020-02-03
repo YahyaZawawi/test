@@ -34,7 +34,9 @@ $padding-top-130: 130px;
 $padding-top-250: 250px;
 $text-x-medium: 21px;
 $padding-all-20: 20px; // fonts
-$title-font: "Bangers"; // breakpoints ---
+$title-font: "Bangers";
+
+// breakpoints ---
 $max-breakpoint: 2000px;
 $screen-desktop: 1600px;
 $screen-desktop-large: 1920px;
@@ -46,6 +48,8 @@ $screen-tablet-p: 768px;
 $screen-phones: 767px;
 $screen-phablet: 480px;
 $screen-mobile: 320px;
+
+
 $container-width: 1440px;
 $input-max-height: 60px;
 $input-min-height: 50px; // --- text

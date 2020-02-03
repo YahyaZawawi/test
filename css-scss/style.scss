@@ -96,6 +96,60 @@ body {
       @include carousel-small;
     }
   }
+
+  @include taplet {
+    img {
+      margin-top: $margin-top-40;
+      width: 55px;
+    }
+
+    h1 {
+      margin-top: $margin-top-40;
+    }
+
+    p {
+      margin-top: $margin-top-40;
+      font-size: $text-x-medium;
+    }
+
+    .slide__image {
+      height: 23vh;
+      width: 100%;
+    }
+
+    .carousel-inner {
+      @include carousel-small;
+    }
+  }
+
+
+  @include small-laptop {
+    img {
+      margin-top: $margin-top-40;
+      width: 75px;
+    }
+
+    h1 {
+      margin-top: $margin-top-40;
+      font-size: $title-medium;
+    }
+
+    p {
+      margin-top: $margin-top-40;
+      font-size: $text-x-medium;
+    }
+
+    .slide__image {
+      height: 400px;
+      width: 100%;
+    }
+
+    .carousel-inner {
+      @include carousel-larg;
+    }
+  }
+
+
   @include desktop-screen {
     img {
       margin-top: $margin-top-40;
@@ -162,6 +216,30 @@ body {
       color: $color-primary-l;
     }
   }
+  @include taplet {
+    img {
+      width: 65px;
+      margin-top: $margin-top-40;
+    }
+
+    h5 {
+      font-size: $text-x-medium;
+      color: $color-primary-l;
+    }
+  }
+  @include small-laptop {
+    img {
+      width: 65px;
+      margin-top: $margin-top-40;
+    }
+
+    h5 {
+      margin-top: 10px;
+      color: $color-primary-l;
+    }
+  }
+
+
   @include desktop-screen {
     img {
       width: 65px;
@@ -294,6 +372,85 @@ body {
       padding: 5px;
     }
   }
+
+  @include taplet {
+    img {
+      width: 45px;
+    }
+    // PRICE BOX STARTS HERE
+    .price__div {
+      margin-top: 120px;
+    padding-bottom: 25px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    mark {
+      color: $color-secondary;
+    }
+
+    .span__150 {
+      color: $color-primary-l;
+    }
+
+    p {
+      text-decoration: line-through;
+      width: 50px;
+      position: absolute;
+      left: 117px;
+      top: -3px;
+      color: $color-grey;
+    }
+
+    .card {
+      position: relative;
+      display: inline-block;
+      bottom: 148px;
+      padding: 5px;
+    }
+  }
+
+
+  @include small-laptop {
+    img {
+      width: 40px;
+      padding-bottom: 10px;
+    }
+    // PRICE BOX STARTS HERE
+    .card {
+      position: relative;
+      display: inline-block;
+      z-index: 1;
+      bottom: 27px;
+      padding: 10px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    p {
+      text-decoration: line-through;
+      width: 75px;
+      position: absolute;
+      left: 108px;
+      top: 2px;
+      color: $color-grey;
+    }
+
+    mark {
+      color: $color-secondary;
+    }
+
+    .span__150 {
+      color: $color-primary-l;
+    }
+    // PRICE BOX ENDS HERE
+  }
+
+
   @include desktop-screen {
     img {
       width: 40px;
@@ -464,7 +621,51 @@ padding: 0px 20px;
       margin: 30px 0;
     }
   }
-  @include desktop-screen {
+
+
+  @include taplet {
+padding: 0px 20px;
+    margin-top: $margin-top-40;
+
+    h1 {
+      font-size: $title-medium;
+    }
+
+    p {
+      color: grey;
+      text-align: center;
+    }
+
+    h5 {
+      margin-top: $margin-top-40;
+      margin-bottom: 20px;
+    }
+
+    .yellow__star {
+      color: $color-alert;
+    }
+
+    img {
+      width: 45px;
+    }
+
+    ol {
+      bottom: -86px;
+    }
+
+    li {
+      border-radius: 100%;
+      height: 15px;
+      width: 15px;
+      background-color: $color-border;
+    }
+
+    .border__holder {
+      margin: 30px 0;
+    }
+  }
+
+  @include small-laptop {
     margin-top: $margin-top-40;
 
 
@@ -476,7 +677,7 @@ padding: 0px 20px;
       display: inline-block;
       text-align: right;
       margin: 0 72px;
-      width: 40%;
+      width: 35%;
     }
 
     .span__holder {
@@ -499,8 +700,76 @@ padding: 0px 20px;
 
     .stars__holder {
       text-align: left;
-      position: absolute;
-      top: 90px;
+      position: relative;
+      top: -36px;
+    }
+
+    .yellow__star {
+      color: $color-alert;
+    }
+
+    img {
+      width: 45px;
+    }
+    // .border__holder{
+    //   display: inline-block;
+    //   margin: 0 80px;
+    // }
+    ol {
+      bottom: -86px;
+    }
+
+    li {
+      border-radius: 100%;
+      height: 20px;
+      width: 20px;
+      background-color: $color-border;
+    }
+
+    .simple__line {
+      font-family: DIN Next LT Arabic;
+      color: $color-text;
+    }
+  }
+
+
+  @include desktop-screen {
+    margin-top: $margin-top-40;
+
+
+    .carousel-inner {
+      display: inline-block;
+          }
+
+    .border__holder {
+      display: inline-block;
+      text-align: right;
+      margin: 0 72px;
+      width: 35%;
+    }
+
+    .span__holder {
+      border-top: 1px solid;
+      padding-top: 10px;
+      border-color: grey;
+    }
+
+    p {
+      color: grey;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 50px;
+      margin-top: 10px;
+      text-align:center;
+
+    }
+
+    .stars__holder {
+      text-align: left;
+      position: relative;
+      top: -36px;
     }
 
     .yellow__star {
@@ -686,6 +955,113 @@ padding: 0px 20px;
     }
     // THIS HERE TIMER ENDS
   }
+
+  @include taplet {
+    mark {
+      color: $color-secondary;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: $title-medium;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      display: inline-block;
+      padding: 13px;
+    }
+    // THIS HERE FOR TIMER STARTS
+    .days {
+      font-size: 20px;
+      color: #db4844;
+    }
+
+    .hours {
+      font-size: 20px;
+      color: #f07c22;
+    }
+
+    .minutes {
+      font-size: 20px;
+      color: #f6da74;
+    }
+
+    .seconds {
+      font-size: 20px;
+      color: #abcd58;
+    }
+
+    .display__inline__block {
+      display: inline-block;
+      line-height: 1;
+      padding: 20px;
+      font-size: 40px;
+    }
+
+    .day {
+      display: block;
+      font-size: 20px;
+      color: grey;
+    }
+    // THIS HERE TIMER ENDS
+  }
+
+  @include small-laptop {
+    text-align: center;
+
+    mark {
+      color: $color-secondary;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: $title-medium;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+
+    .card {
+      display: inline-block;
+      padding: 13px;
+    }
+    // THIS HERE FOR TIMER STARTS
+    .days {
+      font-size: 20px;
+      color: #db4844;
+    }
+
+    .hours {
+      font-size: 20px;
+      color: #f07c22;
+    }
+
+    .minutes {
+      font-size: 20px;
+      color: #f6da74;
+    }
+
+    .seconds {
+      font-size: 20px;
+      color: #abcd58;
+    }
+
+    .display__inline__block {
+      display: inline-block;
+      line-height: 1;
+      padding: 20px;
+      font-size: 40px;
+    }
+
+    .day {
+      display: block;
+      font-size: 20px;
+      color: grey;
+    }
+    // THIS HERE TIMER ENDS
+  }
+
+
   @include desktop-screen {
     text-align: center;
 
@@ -805,6 +1181,49 @@ h6{
     }
 
   }
+
+  @include taplet {
+    input {
+      width: 85%;
+      text-align: right;
+      padding-right: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      width: 85%;
+      background-color: $color-primary;
+      padding: 5px;
+      color: white;
+    }
+    h6{
+      text-align: right;
+      margin-right: 54px;
+    }
+
+  }
+
+  @include small-laptop {
+    text-align: right;
+
+    input {
+      width: 100%;
+      text-align: right;
+      margin-bottom: 20px;
+      padding: 5px;
+    }
+
+    button {
+      width: 100%;
+      background-color: $color-primary;
+      padding: 5px;
+      color: white;
+    }
+
+
+  }
+
+
   @include desktop-screen {
     text-align: right;
 
@@ -874,6 +1293,37 @@ h6{
       margin: 0px 10px;
     }
   }
+
+  @include taplet {
+    h4 {
+      font-size: $title-small;
+      color: grey;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 55px;
+    }
+    i{
+      margin: 0px 10px;
+    }
+  }
+
+  @include small-laptop {
+    h4 {
+      font-size: $title-small;
+      color: grey;
+    }
+
+    img {
+      width: 55px;
+      padding-bottom: 20px;
+    }
+    i{
+      margin: 0px 10px;
+    }
+  }
+
   @include desktop-screen {
     h4 {
       font-size: $title-small;
